@@ -62,57 +62,53 @@
   <br>
   
   <form>
-    <div>
+    <div class="form-group">
       <label>姓名</label><br>
-      <input type="text" placeholder="Your Name" name="">
+      <input type="text" placeholder="Your Name" name="username" class="form-control">
     </div>
-    <div>
+    <div class="form-group">
       <label>性別</label><br>
       <label class="radio-inline">
-    <input type="radio" name="gender">男
+    <input type="radio" name="gender" value="male">男
     </label>
     <label class="radio-inline">
-    <input type="radio" name="gender">女
+    <input type="radio" name="gender" value="female">女
     </label>
     <label class="radio-inline">
-    <input type="radio" name="gender">其他
+    <input type="radio" name="gender" value="others">其他
     </label>
     
       <div>
       </div>
     </div>
-    <div>
+    <div class="form-group">
       <label>電子郵件</label><br>
-      <input type="email" placeholder="Your Email" name="">
+      <input type="email" placeholder="Your Email" name="email" class="form-control">
     </div>
-    <div>
+    <div class="form-group">
       <label>密碼</label><br>
-      <div><input type="password" placeholder="Password"></div>
+      <div><input type="password" placeholder="Password" name="pass" class="form-control"></div>
       
     </div>
-    <div>
+    <div class="form-group">
       <label>興趣</label>
         <label class="radio-inline">
-        <input type="radio" name="interest">閱讀
+        <input type="radio" name="interest" value="閱讀">閱讀
         </label>
         <label class="radio-inline">
-        <input type="radio" name="interest">運動
+        <input type="radio" name="interest" value="運動">運動
         </label>
         <label class="radio-inline">
-        <input type="radio" name="interest">睡覺
+        <input type="radio" name="interest" value="睡覺">睡覺
         </label>
         <label class="radio-inline">
-        <input type="radio" name="interest">學網頁
+        <input type="radio" name="interest" value="學網頁">學網頁
         </label>
-    
-      
-      
-      
-      
+              
       <div>
       </div>
     </div>
-    <button type="submit">送出</button>
+    <button type="submit" class="btn btn-success">送出</button>
   </form>
 </div>
 </body>
